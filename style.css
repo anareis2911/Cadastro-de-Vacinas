@@ -1,0 +1,65 @@
+/*Aluna: Ana Carolina Reis*/
+
+/*Centraliza a div referenciada com a classe "tabela"*/
+.tabela {
+  text-align: center;
+}
+
+table {
+  margin: auto;  /*Centraliza a tabela horizontalmente*/
+  font-family: arial, sans-serif; /*Define os padrões da letra*/
+  border-collapse: collapse; /*Remove o espaçamento entre os campos da tabela*/
+  width: 80%; /* Define a largura da tabela*/
+}
+
+td, th {
+  border: 1px solid #dddddd; /*Adiciona bordas nos campos da tabela*/
+  text-align: left; /*Alinha o texto para esquerda*/
+  padding: 8px; /*Adiciona espaço interno nos campos*/
+}
+
+/*Linhas da tabela com estilo de cor zebrado (em pares)*/
+tr:nth-child(even) { 
+  background-color: #dddddd;
+}
+
+body { 
+  font-family: Verdana, sans-serif; /*Define os padrões da letra do body*/
+  text-align: center; /*Centraliza o texto*/
+}
+h1 {
+  margin-top: 35px; /*Define margem acima da h1*/
+  color:rgb(122, 4, 4) /*Defina a cor do texto da h1*/
+}
+h2{
+  margin-top: 50px; /*Define margem acima das h2*/
+  
+}
+button {
+  font-size: 16px; /*Define a fonte*/
+  background-color: rgb(187, 187, 187); /*Define cor de fundo do botão*/                                      
+  color: rgb(122, 4, 4); /*Define a cor da fonte do botão*/
+  border: none; /*Remove a borda*/
+  margin-top: 10px; /*Define margem acima do botão*/
+  padding: 6px 6px; /*Define o espaço interno*/
+  cursor: pointer; /*Indica que o elemento é clicável*/
+}
+input {
+  width: 100%; /*Define a largura do input*/
+  padding: 12px 20px; /*Define o espaço interno*/
+  margin: 8px 0; /*Define a margem ao redor dos input*/
+  display: inline-block; /*Alinha os elementos do input*/
+  border: 1px solid #ccc; /*Define a borda dos input*/
+  border-radius: 10px; /*Arredonda os cantos da borda*/
+  box-sizing: border-box; /*Faz o tamanho incluir a borda e o preenchimento*/
+}
+
+form {
+  width: 35%; /*Define a largura do formulário*/
+  margin: 20px auto; /*Centraliza o formulário horizontalmente*/
+}
+
+label {
+  display: block; /*Forma blocos*/
+  text-align: left; /*Alinha o texto para esquerda*/
+}
